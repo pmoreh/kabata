@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>   
+<head>
+    <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+    <title>personal website</title>
+    <link href="C:\Users\brayan opiyo\Desktop\DR\styles.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+crossorigin="anonymous">
+</head>
+<body>
+    <section class =" sub-header">
+        <nav>
+            <a href = "index.html"><img src = "images/logo.png"></a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li> <a href = "index.html" ">HOME</a></li>
+                    <li> <a href = "about.html">ABOUT</a></li>
+                    <li> <a href = "units.html">UNITS</a></li>
+                    <li> <a href = "blog.html">BLOG</a></li>
+                    <li> <a href = "contact.html">CONTACT</a></li>
+                 </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>The Units</h1>
+
+
+    </div>
+
+    </section>
+<!-----------------units----------------->
+<section class ="unit">
+    <h1> units available</h1>
+    <p>The units have got notes accaompanied with them, and links 
+        where you can use in downloading.
+    </p>
+    <div class ="row">
+        <div class = "unit-col">
+            <h3> topology</h3>
+            <p>
+                topology is very intresting unit.
+                we can define it as branch of mathematics that deals 
+                with properties of objects which are  not affected by
+                continous deformation.
+            </p>
+
+        </div>
+        <div class = "unit-col">
+            <h3> group thoerey</h3>
+            <p>
+                topology is very intresting unit.
+                we can define it as branch of mathematics that deals 
+                with properties of objects which are  not affected by
+                continous deformation.
+            </p>
+
+        </div>
+        <div class = "unit-col">
+            <h3> numerical analysis</h3>
+            <p>
+                topology is very intresting unit.
+                we can define it as branch of mathematics that deals 
+                with properties of objects which are  not affected by
+                continous deformation.
+            </p>
+
+        </div>
+    </div>
+</section>
+<!------------------books and links---------->
+<section class = "books">
+    <h1> Books and links</h1>
+    <p> the books presented below are very good in revision,
+        the links to these books have been provided as well.
+    </p>
+    <div class ="row">
+        <div class = "books-col">
+            <img src ="images/download.jfif" alt="">
+            <div class = "layer">
+                <h3>introduction to topology</h3>
+            </div>
+        </div>
+        <div class = "books-col">
+            <img src ="images/grouptheorys.jfif" alt="">
+            <div class = "layer">
+                <h3>group theorey</h3>
+            </div>
+        </div>
+        <div class = "books-col">
+            <img src ="images/numericalanalysis (1).jfif" alt="">
+            <div class = "layer">
+                <h3>numerical analysis</h3>
+            </div>
+        </div>
+    </div> 
+</section>
+
+
+
+<!------------------footer------->
+<section class = "footer">
+    <h4> about me</h4>
+    <p> Ia am Ben Obiero  a lecturer at techical
+        university of kenya. <br>In TUK,  I take part in pure mathematics 
+        related units, where I also head the team of lectures.
+    </p>
+    <div class="icons">
+        <i class = "fa fa-facebook"></i>
+        <i class = "fa fa-twitter"></i>
+        <i class = "fa fa-instagram"></i>
+        <i class = "fa fa-linkedin"></i>
+    </div>
+    <p> Made with  <i class = "fa fa-heart-o"></i> by   brayan opiyo</p>
+</section>
+
+<!----------------javascript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>  
+</body>
+</html>
